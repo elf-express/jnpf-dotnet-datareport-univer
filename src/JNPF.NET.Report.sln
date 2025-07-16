@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-架构核心", "01-架构核心", "{5318D694-23B9-4FCC-8338-9996A6E2059A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JNPF", "..\framework\JNPF\JNPF.csproj", "{7CC99346-6DAC-4C22-AFF5-F08D8117916C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JNPF.Extras.Authentication.JwtBearer", "..\framework\JNPF.Extras.Authentication.JwtBearer\JNPF.Extras.Authentication.JwtBearer.csproj", "{49469A2E-C001-4634-80B9-BE590324A5F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JNPF.Extras.DatabaseAccessor.SqlSugar", "..\framework\JNPF.Extras.DatabaseAccessor.SqlSugar\JNPF.Extras.DatabaseAccessor.SqlSugar.csproj", "{26B5E816-15F4-403D-9154-F1C4AD6C5649}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JNPF.Extras.ObjectMapper.Mapster", "..\framework\JNPF.Extras.ObjectMapper.Mapster\JNPF.Extras.ObjectMapper.Mapster.csproj", "{32EBC9B9-7B03-49DB-AB70-C2CB26250667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-应用模块", "02-应用模块", "{1230723A-B35C-45C2-9160-7D1DCD1310B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Common", "00-Common", "{E4872924-2348-4E06-881A-08625ED98E9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-应用服务", "03-应用服务", "{318DD697-D142-45CA-A1A4-ACC88131501B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B3B434C-4A39-40B1-892C-303706847853}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		dotnet.ruleset = dotnet.ruleset
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JNPF.Common", "modularity\common\JNPF.Common\JNPF.Common.csproj", "{B88A96BA-597A-42DA-BCDD-A8DA66754523}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JNPF.Common.Core", "modularity\common\JNPF.Common.Core\JNPF.Common.Core.csproj", "{041BA4C2-D6A8-4823-A990-DCF19F892E0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JNPF.API.Report", "application\JNPF.API.Report\JNPF.API.Report.csproj", "{D0DDCB7E-4B5F-48CD-9589-71D4C6FF34D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Report", "01-Report", "{B3CEC0ED-6764-4E3C-AEE2-57C56DC92740}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JNPF.Reports", "modularity\report\JNPF.Reports\JNPF.Reports\JNPF.Reports.csproj", "{F43ECA77-FA3A-4DC6-89A9-2DA65B984602}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JNPF.Reports.Entitys", "modularity\report\JNPF.Reports.Entitys\JNPF.Reports.Entitys\JNPF.Reports.Entitys.csproj", "{C3B52347-352B-4A9E-B596-26C6FB94A8B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CC99346-6DAC-4C22-AFF5-F08D8117916C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC99346-6DAC-4C22-AFF5-F08D8117916C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC99346-6DAC-4C22-AFF5-F08D8117916C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC99346-6DAC-4C22-AFF5-F08D8117916C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49469A2E-C001-4634-80B9-BE590324A5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49469A2E-C001-4634-80B9-BE590324A5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49469A2E-C001-4634-80B9-BE590324A5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49469A2E-C001-4634-80B9-BE590324A5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B5E816-15F4-403D-9154-F1C4AD6C5649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B5E816-15F4-403D-9154-F1C4AD6C5649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B5E816-15F4-403D-9154-F1C4AD6C5649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B5E816-15F4-403D-9154-F1C4AD6C5649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EBC9B9-7B03-49DB-AB70-C2CB26250667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EBC9B9-7B03-49DB-AB70-C2CB26250667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EBC9B9-7B03-49DB-AB70-C2CB26250667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EBC9B9-7B03-49DB-AB70-C2CB26250667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88A96BA-597A-42DA-BCDD-A8DA66754523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88A96BA-597A-42DA-BCDD-A8DA66754523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88A96BA-597A-42DA-BCDD-A8DA66754523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88A96BA-597A-42DA-BCDD-A8DA66754523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041BA4C2-D6A8-4823-A990-DCF19F892E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041BA4C2-D6A8-4823-A990-DCF19F892E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041BA4C2-D6A8-4823-A990-DCF19F892E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041BA4C2-D6A8-4823-A990-DCF19F892E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DDCB7E-4B5F-48CD-9589-71D4C6FF34D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DDCB7E-4B5F-48CD-9589-71D4C6FF34D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DDCB7E-4B5F-48CD-9589-71D4C6FF34D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DDCB7E-4B5F-48CD-9589-71D4C6FF34D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43ECA77-FA3A-4DC6-89A9-2DA65B984602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43ECA77-FA3A-4DC6-89A9-2DA65B984602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43ECA77-FA3A-4DC6-89A9-2DA65B984602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43ECA77-FA3A-4DC6-89A9-2DA65B984602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B52347-352B-4A9E-B596-26C6FB94A8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B52347-352B-4A9E-B596-26C6FB94A8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B52347-352B-4A9E-B596-26C6FB94A8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B52347-352B-4A9E-B596-26C6FB94A8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CC99346-6DAC-4C22-AFF5-F08D8117916C} = {5318D694-23B9-4FCC-8338-9996A6E2059A}
+		{49469A2E-C001-4634-80B9-BE590324A5F1} = {5318D694-23B9-4FCC-8338-9996A6E2059A}
+		{26B5E816-15F4-403D-9154-F1C4AD6C5649} = {5318D694-23B9-4FCC-8338-9996A6E2059A}
+		{32EBC9B9-7B03-49DB-AB70-C2CB26250667} = {5318D694-23B9-4FCC-8338-9996A6E2059A}
+		{E4872924-2348-4E06-881A-08625ED98E9F} = {1230723A-B35C-45C2-9160-7D1DCD1310B0}
+		{B88A96BA-597A-42DA-BCDD-A8DA66754523} = {E4872924-2348-4E06-881A-08625ED98E9F}
+		{041BA4C2-D6A8-4823-A990-DCF19F892E0C} = {E4872924-2348-4E06-881A-08625ED98E9F}
+		{D0DDCB7E-4B5F-48CD-9589-71D4C6FF34D8} = {318DD697-D142-45CA-A1A4-ACC88131501B}
+		{B3CEC0ED-6764-4E3C-AEE2-57C56DC92740} = {1230723A-B35C-45C2-9160-7D1DCD1310B0}
+		{F43ECA77-FA3A-4DC6-89A9-2DA65B984602} = {B3CEC0ED-6764-4E3C-AEE2-57C56DC92740}
+		{C3B52347-352B-4A9E-B596-26C6FB94A8B2} = {B3CEC0ED-6764-4E3C-AEE2-57C56DC92740}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {646DDD1C-F143-42C2-894F-F5C7B3A0CE74}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\dotnet_code\jnpf-dotnet-datareport-univer\src\application\JNPF.API.Report\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2025-03-05T16:40:31.7349910Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

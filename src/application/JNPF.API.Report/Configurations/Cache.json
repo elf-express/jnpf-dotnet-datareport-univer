@@ -1,0 +1,9 @@
+{
+  "Cache": {
+    "CacheType": "RedisCache", // MemoryCache
+    "ip": "192.168.0.210",
+    "port": 6379,
+    "password": "123456",
+    "RedisConnectionString": "{0}:{1},password={2}, poolsize=500,ssl=false,defaultDatabase=7"
+  }
+}

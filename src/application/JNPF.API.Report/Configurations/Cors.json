@@ -1,0 +1,7 @@
+{
+    "CorsAccessorSettings": {
+        "PolicyName": "JNPFCorsAccessor",
+      "WithOrigins": [ "http://localhost:3000", "http://localhost:8080", "http://192.168.20.123:3800" ],
+        "WithExposedHeaders": [ "access-token", "x-access-token", "Content-Disposition" ]
+    }
+}

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>JNPF 公共拓展核心库。</Description>
+		<PreserveCompilationContext>true</PreserveCompilationContext>
+		<TargetFramework>net8.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="2.88.6" />
+		<PackageReference Include="DotNetCore.Natasha.CSharp" Version="5.2.2.1" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="..\JNPF.Common\JNPF.Common.csproj" />
+	</ItemGroup>
+
+</Project>

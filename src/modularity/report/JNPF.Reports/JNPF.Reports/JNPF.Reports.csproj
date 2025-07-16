@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jnpf-dotnet-datareport-univer-core" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\framework\JNPF\JNPF.csproj" />
+    <ProjectReference Include="..\..\..\common\JNPF.Common.Core\JNPF.Common.Core.csproj" />
+    <ProjectReference Include="..\..\..\common\JNPF.Common\JNPF.Common.csproj" />
+    <ProjectReference Include="..\..\JNPF.Reports.Entitys\JNPF.Reports.Entitys\JNPF.Reports.Entitys.csproj" />
+  </ItemGroup>
+
+</Project>

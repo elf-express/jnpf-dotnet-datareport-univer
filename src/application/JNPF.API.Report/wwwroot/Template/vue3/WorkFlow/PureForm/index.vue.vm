@@ -1,0 +1,37 @@
+<template>
+  <div class="jnpf-content-wrapper bg-white">
+    <FlowParser @@register="registerFlowParser"  @@reload="init()"/>
+  </div>
+</template>
+
+<script lang="ts" setup>
+  import { reactive, onMounted, toRefs } from 'vue';
+  import { useMessage } from '@@/hooks/web/useMessage';
+  import { usePopup } from '@@/components/Popup';
+  import FlowParser from '@@/views/workFlow/components/FlowParser.vue';
+
+  interface State {
+    flowId: string;
+  }
+
+  const { createMessage } = useMessage();
+  const [registerFlowParser, { openPopup: openFlowParser }] = usePopup();
+  const state = reactive<State>({
+    flowId: '', //请在此处填写流程id
+  });
+
+
+  function init() {
+   const data = {
+      id: '',
+      flowId: state.flowId||'',
+      opType: '-1',
+      hideCancelBtn: true,
+    };
+    openFlowParser(true, data);
+  }
+
+  onMounted(() => {
+    init();
+  });
+</script>
