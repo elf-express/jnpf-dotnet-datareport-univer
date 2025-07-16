@@ -1,0 +1,7 @@
+cd C:\github_code\jnpf-dotnet-datareport-univer
+git init
+git add .
+git commit -m "init from JNPF5.2 jnpf-dotnet-datareport-univer"
+git branch -M master
+git remote add origin https://github.com/elf-express/jnpf-dotnet-datareport-univer.git
+git push -u origin master
