@@ -100,7 +100,7 @@
     "PreviewType": "kkfile", //文件预览方式 （kkfile，yozo）默认使用kkfile
     "KKFileDomain": "http://127.0.0.1:30090/FileServer",
     "Domain": "http://yinmai.tpddns.cn:7772",
-    "FlowableDomain": "http://192.168.20.140:31000/api/Flow/",
+    "FlowableDomain": "http://127.0.0.1:31000/api/Flow/",
     "YOZO": {
       "domain": "http://dcsapi.com/",
       "domainKey": "57462250284462899305150",
@@ -197,9 +197,9 @@
   },
   //================== 消息跳转配置 ============================== -->
   "Message": {
-    "ApiDoMain": "http://localhost:5000", // 后端Api路径  (发布时与DoMainPc一致)
-    "DoMainPc": "http://localhost:3000", // 前端PC外网能访问的地址(域名), 回调的时候拼接接口地址用
-    "DoMainApp": "http://localhost:8081", // 前端App外网能访问的地址(域名), 回调的时候拼接接口地址用
+    "ApiDoMain": "http://127.0.0.1:5000", // 后端Api路径  (发布时与DoMainPc一致)
+    "DoMainPc": "http://127.0.0.1:3000", // 前端PC外网能访问的地址(域名), 回调的时候拼接接口地址用
+    "DoMainApp": "http://127.0.0.1:8081", // 前端App外网能访问的地址(域名), 回调的时候拼接接口地址用
     "AppPushUrl": "https://8e84eea8-6922-4033-8e86-67ad7442e692.bspapp.com/unipush"
   }
 }

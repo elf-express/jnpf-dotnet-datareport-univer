@@ -3,22 +3,22 @@
     "ConnectionConfigs": [
       {
         "ConfigId": "default",
-        "DBName": "jnpf_test_500",
-        "DBType": "MySql", //MySql;SqlServer;Oracle;PostgreSQL;Dm;Kdbndp;Sqlite;
-        "Host": "192.168.0.210",
-        "Port": "3306",
-        "UserName": "root",
-        "Password": "fd272b5846cba086",
+        "DBName": "ELFjnpf500",
+        "DBType": "SqlServer", //MySql;SqlServer;Oracle;PostgreSQL;Dm;Kdbndp;Sqlite;
+        "Host": "192.168.20.131",
+        "Port": "1433",
+        "UserName": "sa",
+        "Password": "Sql@admin",
         "DBSchema": "public"
       },
       {
         "ConfigId": "JNPF-Job", // 不可修改
-        "DBName": "huguiyan111",
-        "DBType": "MySql", //MySql;SqlServer;Oracle;PostgreSQL;Dm;Kdbndp;Sqlite;
-        "Host": "192.168.0.210",
-        "Port": "3306",
-        "UserName": "root",
-        "Password": "fd272b5846cba086",
+        "DBName": "ELFjnpf500job",
+        "DBType": "SqlServer", //MySql;SqlServer;Oracle;PostgreSQL;Dm;Kdbndp;Sqlite;
+        "Host": "192.168.20.131",
+        "Port": "1433",
+        "UserName": "sa",
+        "Password": "Sql@admin",
         "DBSchema": "public"
       }
     ]
